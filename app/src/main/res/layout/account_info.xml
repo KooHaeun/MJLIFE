@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/bar"
+        layout="@layout/app_bar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVerLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="30dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHori1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="114dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVerRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="30dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideVerCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="206dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHori2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="559dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내 정보 수정"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/guideHori1"
+        app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
+        app:layout_constraintRight_toRightOf="@id/guideVerRight" />
+
+
+    <LinearLayout
+        android:id="@+id/innerLayout"
+        android:layout_width="351dp"
+        android:layout_height="330dp"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
+        app:layout_constraintRight_toRightOf="@id/guideVerRight"
+        app:layout_constraintTop_toBottomOf="@+id/title">
+
+        <ImageView
+            android:id="@+id/myImg"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/missImg"
+            android:src="" />
+
+        <Button
+            android:id="@+id/imgChangeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="사진변경"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="@color/colorBasicWhite" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="- 없이 입력해주세요." />
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="이메일"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="mail@xxx.xxx" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/changePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호변경"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
+        app:layout_constraintRight_toRightOf="@id/guideVerRight"
+        app:layout_constraintTop_toBottomOf="@+id/innerLayout"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@color/colorBasicWhite" />
+
+    <Button
+        android:id="@+id/completeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수정완료"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@color/colorBasicWhite"
+        app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
+        app:layout_constraintRight_toRightOf="@id/guideVerCenter"
+        app:layout_constraintTop_toBottomOf="@+id/guideHori2" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그아웃"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@color/colorBasicWhite"
+        app:layout_constraintLeft_toLeftOf="@id/guideVerCenter"
+        app:layout_constraintRight_toRightOf="@id/guideVerRight"
+        app:layout_constraintTop_toBottomOf="@+id/guideHori2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
