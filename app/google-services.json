@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "675039483238",
+    "firebase_url": "https://mjlife-1ffe2.firebaseio.com",
+    "project_id": "mjlife-1ffe2",
+    "storage_bucket": "mjlife-1ffe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675039483238:android:d69f48e02105495a7224a7",
+        "android_client_info": {
+          "package_name": "com.example.mjlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675039483238-v78t3sc9qkhcfklepmdvlvegb9kp3qvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJYRtZKab0ucoek5qndzFVPXD1FbDdHe8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675039483238-v78t3sc9qkhcfklepmdvlvegb9kp3qvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
