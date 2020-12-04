@@ -28,8 +28,5 @@
     <string name="Notice29">※ 2회, 6회차 운행버스는 45인승으로 운행</string>
 
     <string name="startNumber1">8:05</string>
-
-    <!--account_info -->
-    <string name="missImg">이미지를 불러올 수 없습니다.</string>
     <!-- 우영학 하드 코딩 -->
 </resources>
