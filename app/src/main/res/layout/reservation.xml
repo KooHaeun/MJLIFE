@@ -83,6 +83,7 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/one45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -118,6 +119,7 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/two45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -153,6 +155,7 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/three45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -188,6 +191,7 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/four45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -223,6 +227,7 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/five45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -258,6 +263,7 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/six45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -363,6 +369,7 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/one29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -398,6 +405,7 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/two29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -433,6 +441,7 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/three29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -469,6 +478,7 @@
             android:background="#EBF5FF">
 
             <TextView
+                android:id="@+id/four29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -504,6 +514,7 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/five29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -539,6 +550,7 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/six29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"

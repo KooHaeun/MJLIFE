@@ -60,28 +60,11 @@
     <LinearLayout
         android:id="@+id/innerLayout"
         android:layout_width="351dp"
-        android:layout_height="330dp"
+        android:layout_height="360dp"
         android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
         app:layout_constraintRight_toRightOf="@id/guideVerRight"
         app:layout_constraintTop_toBottomOf="@+id/title">
-
-        <ImageView
-            android:id="@+id/myImg"
-            android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/missImg"
-            android:src="" />
-
-        <Button
-            android:id="@+id/imgChangeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="사진변경"
-            style="?android:attr/borderlessButtonStyle"
-            android:background="@color/colorBasicWhite" />
 
         <TextView
             android:id="@+id/nameTextView"
@@ -110,19 +93,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="mail@xxx.xxx" />
+        <TextView
+            android:id="@+id/passTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="비밀번호"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/passInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="숫자+영문자 8~16자" />
+        <TextView
+            android:id="@+id/passCheckTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="비밀번호 확인"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/passCheckInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호 확인" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/changePassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="비밀번호변경"
-        android:layout_marginTop="30dp"
-        app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
-        app:layout_constraintRight_toRightOf="@id/guideVerRight"
-        app:layout_constraintTop_toBottomOf="@+id/innerLayout"
-        style="?android:attr/borderlessButtonStyle"
-        android:background="@color/colorBasicWhite" />
 
     <Button
         android:id="@+id/completeButton"

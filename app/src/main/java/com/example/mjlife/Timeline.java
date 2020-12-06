@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class timeline extends AppCompatActivity {
+public class Timeline extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

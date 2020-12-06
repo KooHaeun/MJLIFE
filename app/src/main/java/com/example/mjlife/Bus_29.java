@@ -4,12 +4,10 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class account_info extends AppCompatActivity {
-
-
+public class Bus_29 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.account_info);
+        setContentView(R.layout.bus_45);
     }
 }
