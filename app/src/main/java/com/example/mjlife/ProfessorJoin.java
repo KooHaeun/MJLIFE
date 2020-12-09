@@ -38,7 +38,7 @@ public class ProfessorJoin extends AppCompatActivity {
         check = findViewById(R.id.check);
         complete = findViewById(R.id.complete);
         mDatabase = FirebaseDatabase.getInstance().getReference("Professor");
-        
+
         check.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
