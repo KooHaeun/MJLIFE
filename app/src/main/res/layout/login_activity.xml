@@ -30,6 +30,37 @@
         android:layout_marginTop="5dp"
         app:layout_constraintVertical_bias="0.314"/>
 
+    <RadioGroup
+        android:id="@+id/rdg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title">
+
+        <RadioButton
+            android:id="@+id/rdoS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="학생"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+        <RadioButton
+            android:id="@+id/rdoP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="교수"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+    </RadioGroup>
+
+
+
+
 
     <EditText
         android:id="@+id/ID"
@@ -37,7 +68,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintTop_toBottomOf="@+id/rdg"
         android:layout_marginTop="10dp"
         android:hint="@string/ID"
         />

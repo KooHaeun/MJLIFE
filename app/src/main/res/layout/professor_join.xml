@@ -5,14 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
+
+    <TextView
         android:id="@+id/school"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="                           교수 회원가입"
+        style="@style/title"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="60dp"
-        android:src="@drawable/school"
         />
 
     <TextView
@@ -148,10 +151,11 @@
         android:id="@+id/complete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
         android:text="가입 완료"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phone_in"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="@id/start"
+        app:layout_constraintTop_toBottomOf="@+id/phone_in" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/start"

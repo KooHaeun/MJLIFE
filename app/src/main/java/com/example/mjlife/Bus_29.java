@@ -19,5 +19,7 @@ public class Bus_29 extends AppCompatActivity {
         for(int i = 0; i<29; i++){
             seat[i] = findViewById(seatID[i]);
         }
+        //인텐트로 운행수 받아오고 버스 좌석 번호 받아서 변수에 저장까지만
+
     }
 }
