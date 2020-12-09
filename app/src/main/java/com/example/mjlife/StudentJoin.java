@@ -93,7 +93,10 @@ public class StudentJoin extends AppCompatActivity {
             public void onClick(View v) {
                 if (k == 0 || c != 0) {
                     //학번 중복확인을 해주세요 다이얼로그
-                } else {
+                }
+                else if(imagePath.equals("")){
+                    //유체크 사진을 업로드 해주세요 다이얼로그
+                }else {
                     Uri file = Uri.fromFile(new File(imagePath));
                     StorageReference ref = storageRef.child("general/"+file.getLastPathSegment());
                     UploadTask uploadTask =  ref.putFile(file);
