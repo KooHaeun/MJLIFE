@@ -1,5 +1,6 @@
 package com.example.mjlife;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -15,6 +16,11 @@ public class Bus_29 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bus_29);
+
+        Intent getReservation = new Intent(this.getIntent());
+
+        //Reservation에서 보낸 운행수 받아옴
+        String getServiceNum =  getReservation.getStringExtra("selectValue");
 
         for(int i = 0; i<29; i++){
             seat[i] = findViewById(seatID[i]);
