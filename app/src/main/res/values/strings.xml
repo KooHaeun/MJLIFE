@@ -28,8 +28,16 @@
     <string name="Notice29">※ 2회, 6회차 운행버스는 45인승으로 운행</string>
 
     <string name="startNumber1">8:05</string>
-
-    <!--account_info -->
-    <string name="missImg">이미지를 불러올 수 없습니다.</string>
     <!-- 우영학 하드 코딩 -->
+
+    <!--양정원 -->
+    <string-array name="subject">
+        <item>객체지향언어실습</item>
+        <item>모바일프로그래밍</item>
+        <item>서버시스템관리</item>
+        <item>웹프로그래밍</item>
+        <item>인공지능시스템</item>
+        <item>컴퓨터아키텍쳐</item>
+    </string-array>
+    <!-- //양정원 -->
 </resources>

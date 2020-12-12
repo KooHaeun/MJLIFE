@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class account_info extends AppCompatActivity {
+public class Account_info extends AppCompatActivity {
 
 
     @Override

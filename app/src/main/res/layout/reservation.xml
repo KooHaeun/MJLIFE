@@ -11,6 +11,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/btnCoun"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -83,12 +84,14 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/one45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number1"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click49"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -118,12 +121,14 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/two45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number2"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click49"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -153,12 +158,14 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/three45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number3"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click49"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -188,12 +195,14 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/four45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number4"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click49"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -223,12 +232,14 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/five45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number5"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click49"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -258,12 +269,14 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/six45"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number6"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click49"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -363,12 +376,14 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/one29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number1"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click29"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -398,12 +413,14 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/two29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number2"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click29"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -433,12 +450,14 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/three29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number3"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click29"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -469,12 +488,14 @@
             android:background="#EBF5FF">
 
             <TextView
+                android:id="@+id/four29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number4"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click29"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -504,12 +525,14 @@
         <TableRow
             android:background="#FFFFFF">
             <TextView
+                android:id="@+id/five29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number5"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click29"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -539,12 +562,14 @@
         <TableRow
             android:background="#EBF5FF">
             <TextView
+                android:id="@+id/six29"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number6"
                 android:textSize="18sp"
-                android:padding="4dp"/>
+                android:padding="4dp"
+                android:onClick="Click29"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

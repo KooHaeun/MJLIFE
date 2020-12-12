@@ -4,10 +4,9 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class bus_45 extends AppCompatActivity {
-    @Override
+public class Counsel extends AppCompatActivity {
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.bus_45);
-    }
+        setContentView(R.layout.counsel_reservation);}
 }
