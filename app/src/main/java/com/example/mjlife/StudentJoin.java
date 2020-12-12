@@ -39,6 +39,9 @@ public class StudentJoin extends AppCompatActivity {
     StorageReference storageRef;
     String imagePath, imageName;
     int c=0, k=0;
+    AlertDialog.Builder dlg = new AlertDialog.Builder(join.this);
+    dlg.setTitle("회원가입 오류");
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.join);
@@ -74,6 +77,8 @@ public class StudentJoin extends AppCompatActivity {
                         for (DataSnapshot generalSnapshot : snapshot.getChildren()) {
                             if (generalSnapshot.child("id").getValue().toString().equals(id)) {
                                 //중복입니다. 학번을 다시 확인해주세요 다이얼로그
+                                dlg.setMessage("중복입니다. 학번을 다시 확인해주세요");
+                                dlg.show();
                                 c++;
                                 k=0;
                             }
@@ -93,9 +98,13 @@ public class StudentJoin extends AppCompatActivity {
             public void onClick(View v) {
                 if (k == 0 || c != 0) {
                     //학번 중복확인을 해주세요 다이얼로그
+                    dlg.setMessage("학번 중복확인을 해주세요");
+                    dlg.show();
                 }
                 else if(imagePath.equals("")){
                     //유체크 사진을 업로드 해주세요 다이얼로그
+                    dlg.setMessage("유체크 사진을 업로드 해주세요");
+                    dlg.show();
                 }else {
                     Uri file = Uri.fromFile(new File(imagePath));
                     StorageReference ref = storageRef.child("general/"+file.getLastPathSegment());
@@ -118,12 +127,19 @@ public class StudentJoin extends AppCompatActivity {
                         final String password = password_in.getText().toString();
                         if (name.equals("") || id.equals("") || phone.equals("") || password.equals("")) {
                             //모든 항목을 채워주세요 다이얼로그
+                            dlg.setMessage("모든 항목을 채워주세요");
+                            dlg.show();
                         } else {
                             dbJoin(name, id, phone, password);
                             //가입완료 다이얼로그, 로그인 화면으로 전환
+                            dlg.setTitle("회원가입 성공");
+                            dlg.setMessage("정상적으로 회원가입이 완료되었습니다!");
+                            dlg.show();
                         }
                     } else {
                         //비밀번호를 다시 확인해주세요 다이얼로그
+                        dlg.setMessage("비밀번호를 다시 확인해주세요");
+                        dlg.show();
                     }
                 }
             }

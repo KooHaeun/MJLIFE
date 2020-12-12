@@ -26,6 +26,9 @@ public class ProfessorJoin extends AppCompatActivity {
     DatabaseReference mDatabase;
     HashMap result;
     int c=0, k=0;
+    AlertDialog.Builder dlg = new AlertDialog.Builder(professor_join.this);
+    dlg.setTitle("회원가입 오류");
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.professor_join);
@@ -50,6 +53,8 @@ public class ProfessorJoin extends AppCompatActivity {
                         for (DataSnapshot generalSnapshot : snapshot.getChildren()) {
                             if (generalSnapshot.child("id").getValue().toString().equals(id)) {
                                 //중복입니다. 교번을 다시 확인해주세요 다이얼로그
+                                dlg.setMessage("중복입니다. 교번을 다시 확인해주세요");
+                                dlg.show();
                                 c++;
                                 k=0;
                             }
@@ -69,6 +74,8 @@ public class ProfessorJoin extends AppCompatActivity {
             public void onClick(View v) {
                 if (k == 0 || c != 0) {
                     //교번 중복확인을 해주세요 다이얼로그
+                    dlg.setMessage("교번 중복확인을 해주세요");
+                    dlg.show();
                 }
                 else {
                     final String name = name_in.getText().toString();
@@ -79,12 +86,19 @@ public class ProfessorJoin extends AppCompatActivity {
                         final String password = password_in.getText().toString();
                         if (name.equals("") || id.equals("") || phone.equals("") || password.equals("")||major.equals("")) {
                             //모든 항목을 채워주세요 다이얼로그
+                            dlg.setMessage("모든 항목을 채워주세요");
+                            dlg.show();
                         } else {
                             dbJoin(name, id, phone, password, major);
                             //가입완료 다이얼로그, 로그인 화면으로 전환
+                            dlg.setTitle("회원가입 성공");
+                            dlg.setMessage("정상적으로 회원가입이 완료되었습니다!");
+                            dlg.show();
                         }
                     } else {
                         //비밀번호를 다시 확인해주세요 다이얼로그
+                        dlg.setMessage("비밀번호를 다시 확인해주세요");
+                        dlg.show();
                     }
                 }
             }
