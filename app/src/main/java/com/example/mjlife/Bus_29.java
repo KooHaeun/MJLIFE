@@ -20,6 +20,7 @@ public class Bus_29 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bus_29);
+        seat = new  Button[29];
 
         Intent getReservation = new Intent(this.getIntent());
 

@@ -32,8 +32,6 @@ public class Reservation extends AppCompatActivity {
         four29 = findViewById(R.id.four29);
         five29 = findViewById(R.id.five29);
         six29 = findViewById(R.id.six29);
-        //초기화 (완료했습니다.)
-
         btnCoun.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,6 +40,8 @@ public class Reservation extends AppCompatActivity {
                 startActivity(toCounsel);
             }
         });
+
+
 
 
     }

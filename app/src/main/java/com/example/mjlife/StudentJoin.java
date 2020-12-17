@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.loader.content.CursorLoader;
 
@@ -39,8 +40,7 @@ public class StudentJoin extends AppCompatActivity {
     StorageReference storageRef;
     String imagePath, imageName;
     int c=0, k=0;
-    AlertDialog.Builder dlg = new AlertDialog.Builder(join.this);
-    dlg.setTitle("회원가입 오류");
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +57,9 @@ public class StudentJoin extends AppCompatActivity {
         mDatabase = FirebaseDatabase.getInstance().getReference("Student");
         storage = FirebaseStorage.getInstance();
         storageRef = storage.getReference();
+
+        final AlertDialog.Builder dlg = new AlertDialog.Builder(StudentJoin.this);
+        dlg.setTitle("회원가입 오류");
 
         btnUpload.setOnClickListener(new View.OnClickListener() {
             @Override

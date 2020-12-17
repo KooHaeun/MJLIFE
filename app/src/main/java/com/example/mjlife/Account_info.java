@@ -1,6 +1,7 @@
 package com.example.mjlife;
 
 import android.os.Bundle;
+import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 

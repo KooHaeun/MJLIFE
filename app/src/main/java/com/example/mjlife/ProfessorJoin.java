@@ -7,6 +7,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DataSnapshot;
@@ -26,8 +27,7 @@ public class ProfessorJoin extends AppCompatActivity {
     DatabaseReference mDatabase;
     HashMap result;
     int c=0, k=0;
-    AlertDialog.Builder dlg = new AlertDialog.Builder(professor_join.this);
-    dlg.setTitle("회원가입 오류");
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +41,8 @@ public class ProfessorJoin extends AppCompatActivity {
         check = findViewById(R.id.check);
         complete = findViewById(R.id.complete);
         mDatabase = FirebaseDatabase.getInstance().getReference("Professor");
+        final AlertDialog.Builder dlg = new AlertDialog.Builder(ProfessorJoin.this);
+        dlg.setTitle("회원가입 오류");
 
         check.setOnClickListener(new View.OnClickListener() {
             @Override
