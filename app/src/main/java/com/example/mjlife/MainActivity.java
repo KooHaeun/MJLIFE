@@ -65,7 +65,15 @@ public class MainActivity extends AppCompatActivity {
 
                 int id = menuItem.getItemId();
 
-                if(id == R.id.mine){
+                if(id==R.id.reservation){
+                    //reservation으로
+                    //id넘기기
+                }
+                else if(id==R.id.timeline){
+                    //timeline으로
+                    //id넘기기
+                }
+                else if(id == R.id.mine){
                     //Account_info로 넘기기
                     //id 넘기기
                 }else if(id==R.id.reservation_con){

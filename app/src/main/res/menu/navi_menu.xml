@@ -4,6 +4,12 @@
     tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/reservation"
+            android:title="예약하기"/>
+        <item
+            android:id="@+id/timeline"
+            android:title="시간표"/>
+        <item
             android:id="@+id/mine"
             android:title="개인정보 관리"/>
         <item
