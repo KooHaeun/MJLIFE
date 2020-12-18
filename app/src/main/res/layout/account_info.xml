@@ -83,7 +83,7 @@
             android:layout_marginTop="20dp"/>
 
         <EditText
-            android:id="@+id/nameInput"
+            android:id="@+id/telInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="- 없이 입력해주세요." />

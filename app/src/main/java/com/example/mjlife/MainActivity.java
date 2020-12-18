@@ -1,8 +1,10 @@
 package com.example.mjlife;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -16,6 +18,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
+    Button homepageButton;
 
     DrawerLayout drawerLayout;
     NavigationView nDrawer;
@@ -24,6 +27,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //홈페이지 버튼 인플레이션
+        homepageButton = findViewById(R.id.homepageButton);
+
+        //홈페이지 버튼 누르면 homepage_webview 액티비티로 이동
+        homepageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toHomePage = new Intent(MainActivity.this, Homepage_WebView.class);
+                startActivity(toHomePage);
+            }
+        });
 
         //로그인 화면에서 id 받아오기
 
