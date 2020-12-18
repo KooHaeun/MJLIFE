@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView nDrawer;
 
+    String id;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //로그인 화면에서 id 받아오기
+        Intent intent = getIntent();
+        id = intent.getStringExtra("id");
 
         drawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
         nDrawer = (NavigationView) findViewById(R.id.nDrawer);
@@ -67,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //메인 화면으로 이동
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -79,21 +85,30 @@ public class MainActivity extends AppCompatActivity {
                 drawerLayout.closeDrawers();
 
                 int id = menuItem.getItemId();
+                Intent intent;
 
                 if(id==R.id.reservation){
                     //reservation으로
                     //id넘기기
+                    intent = new Intent(getApplicationContext(), Reservation.class);
+                    intent.putExtra("id", id);
                 }
                 else if(id==R.id.timeline){
                     //timeline으로
                     //id넘기기
+                    intent = new Intent(getApplicationContext(), Timeline.class);
+                    intent.putExtra("id", id);
                 }
                 else if(id == R.id.mine){
                     //Account_info로 넘기기
                     //id 넘기기
+                    intent = new Intent(getApplicationContext(), Account_info.class);
+                    intent.putExtra("id", id);
                 }else if(id==R.id.reservation_con){
                     //ReservationContrl로 넘기기
                     //id 넘기기
+                    intent = new Intent(getApplicationContext(), ReservationControl.class);
+                    intent.putExtra("id", id);
                 }
                 return false;
             }
