@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.TimePicker;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
@@ -24,8 +25,10 @@ public class Timeline extends AppCompatActivity {
 
     Button btnPlus;
     View dialogView;
-    Spinner tlSpinner;
-    TextView grade;
+    Spinner subjectSp, scheduleSp;
+    TextView grade, start_text, end_text;
+    TimePicker start_time, end_time;
+    int sHour, sMin, eHour, eMin; //시간 저장 변수
     String id;
     DrawerLayout drawerLayout;
     NavigationView nDrawer;
@@ -59,9 +62,60 @@ public class Timeline extends AppCompatActivity {
                 tlDlg.setNegativeButton("취소", null);
                 tlDlg.show();
 
-                tlSpinner = dialogView.findViewById(R.id.tlSpinner);
-                ArrayAdapter tlAdapter = ArrayAdapter.createFromResource(Timeline.this, R.array.subject,android.R.layout.simple_spinner_item);
-                tlSpinner.setAdapter(tlAdapter);
+                //과목 스피너
+                subjectSp = dialogView.findViewById(R.id.sbSpinner);
+                ArrayAdapter sbAdapter = ArrayAdapter.createFromResource(Timeline.this, R.array.subject,android.R.layout.simple_spinner_dropdown_item);
+                subjectSp.setAdapter(sbAdapter);
+
+                //요일 스피너
+                scheduleSp = dialogView.findViewById(R.id.scSpinner);
+                ArrayAdapter scAdapter = ArrayAdapter.createFromResource(Timeline.this, R.array.day,android.R.layout.simple_spinner_dropdown_item);
+                scheduleSp.setAdapter(scAdapter);
+
+                //시간 인플레이팅
+                start_text = dialogView.findViewById(R.id.start_text);
+                end_text = dialogView.findViewById(R.id.end_text);
+                start_time = dialogView.findViewById(R.id.start_time);
+                end_time = dialogView.findViewById(R.id.end_time);
+
+                //시작 시간 텍스트 눌렀을때
+                start_text.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        start_time.setVisibility(View.VISIBLE);
+                        end_time.setVisibility(View.INVISIBLE);
+                    }
+                });
+
+                //시작 시간 변화 이벤트
+                start_time.setOnTimeChangedListener(new TimePicker.OnTimeChangedListener() {
+                    @Override
+                    public void onTimeChanged(TimePicker timePicker, int hour, int min) {
+                        sHour = hour;
+                        sMin = min;
+                        start_text.setText(sHour+":"+sMin);
+                    }
+                });
+
+                //끝나는 시간 눌렀을때
+                end_text.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        start_time.setVisibility(View.INVISIBLE);
+                        end_time.setVisibility(View.VISIBLE);
+                    }
+                });
+
+                //끝나는 시간 변화 이벤트
+                end_time.setOnTimeChangedListener(new TimePicker.OnTimeChangedListener() {
+                    @Override
+                    public void onTimeChanged(TimePicker timePicker, int hour, int min) {
+                        eHour = hour;
+                        eMin = min;
+                        end_text.setText(eHour+":"+eMin);
+                    }
+                });
+
             }
         });
     }
