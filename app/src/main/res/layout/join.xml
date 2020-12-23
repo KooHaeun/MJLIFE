@@ -20,7 +20,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="            학생 회원가입"
-                style="@style/title" />
+                style="@style/title"
+                android:includeFontPadding="false"/>
             <TextView
                 android:id="@+id/name"
                 android:layout_margin="5dp"
@@ -28,14 +29,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="이름"
-                android:textSize="20sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
 
             <EditText
                 android:id="@+id/name_in"
                 android:layout_margin="5dp"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:hint="이름을 입력하세요"/>
+                android:hint="이름을 입력하세요"
+                style="@style/edit"
+                android:includeFontPadding="false"/>
 
             <TextView
                 android:id="@+id/id"
@@ -45,19 +49,24 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="@string/ID"
-                android:textSize="20sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <EditText
                 android:layout_margin="5dp"
                 android:id="@+id/id_in"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:hint="학번"/>
+                android:hint="학번"
+                style="@style/edit"
+                android:includeFontPadding="false"/>
             <Button
                 android:id="@+id/check"
                 android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="중복확인"/>
+                android:text="중복확인"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
 
 
             <TextView
@@ -67,14 +76,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="비밀번호"
-                android:textSize="20sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
 
             <EditText
                 android:id="@+id/password_in"
                 android:layout_margin="5dp"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:hint="숫자+영문자 8~16자"/>
+                android:hint="숫자+영문자 8~16자"
+                style="@style/edit"
+                android:includeFontPadding="false"/>
 
             <TextView
                 android:id="@+id/passwordCheck"
@@ -83,14 +95,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="비밀번호 확인"
-                android:textSize="20sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
 
             <EditText
                 android:id="@+id/passwordCheck_in"
                 android:layout_margin="5dp"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:hint="비밀번호를 입력하세요"/>
+                android:hint="비밀번호를 입력하세요"
+                style="@style/edit"
+                android:includeFontPadding="false"/>
 
             <TextView
                 android:id="@+id/major"
@@ -99,7 +114,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="학과"
-                android:textSize="20sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <Spinner
                 android:id="@+id/major_in"
                 android:layout_width="wrap_content"
@@ -113,14 +129,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="전화번호"
-                android:textSize="20sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
 
             <EditText
                 android:id="@+id/phone_in"
                 android:layout_margin="5dp"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:hint="전화번호를 입력하세요"/>
+                android:hint="전화번호를 입력하세요"
+                style="@style/edit"
+                android:includeFontPadding="false"/>
 
             <TextView
                 android:id="@+id/photo"
@@ -129,7 +148,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="유체크 사진"
-                android:textSize="20sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
 
             <ImageView
                 android:id="@+id/userImage"
@@ -148,13 +168,17 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_gravity="center"
-                android:text="사진 선택"/>
+                android:text="사진 선택"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
 
             <Button
                 android:id="@+id/complete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="가입 완료"/>
+                android:text="가입 완료"
+                style="@style/edit"
+                android:includeFontPadding="false"/>
         </LinearLayout>
 
         </ScrollView>

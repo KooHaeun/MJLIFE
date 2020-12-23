@@ -40,7 +40,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="상담"
-                android:textSize="20dp" />
+                style="@style/title"
+                android:includeFontPadding="false"/>
 
             <TableLayout
                 android:id="@+id/professorTable"
@@ -60,7 +61,8 @@
                         android:gravity="center"
                         android:text="교수님"
                         android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        style="@style/head"
+                        android:includeFontPadding="false"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -69,7 +71,8 @@
                         android:gravity="center"
                         android:text="사무실"
                         android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        style="@style/head"
+                        android:includeFontPadding="false"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -78,7 +81,8 @@
                         android:gravity="center"
                         android:text="신청하기"
                         android:textColor="#FFFFFF"
-                        android:textSize="20dp" />
+                        style="@style/head"
+                        android:includeFontPadding="false" />
                 </TableRow>
 
                 <TableRow>
@@ -88,21 +92,24 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="교수님1"
-                        android:textSize="20dp" />
+                        style="@style/basis"
+                        android:includeFontPadding="false" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="사무실1"
-                        android:textSize="20dp" />
+                        style="@style/basis"
+                        android:includeFontPadding="false" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="신청하기"
-                        android:textSize="20dp" />
+                        style="@style/basis"
+                        android:includeFontPadding="false" />
                 </TableRow>
 
                 <TableRow>
@@ -112,21 +119,24 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="교수님2"
-                        android:textSize="20dp" />
+                        style="@style/basis"
+                        android:includeFontPadding="false" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="사무실2"
-                        android:textSize="20dp" />
+                        style="@style/basis"
+                        android:includeFontPadding="false" />
 
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="신청하기"
-                        android:textSize="20dp" />
+                        style="@style/basis"
+                        android:includeFontPadding="false" />
                 </TableRow>
             </TableLayout>
 
@@ -143,7 +153,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="시간"
-            android:textSize="20dp"
+            style="@style/title"
+            android:includeFontPadding="false"
             app:layout_constraintTop_toBottomOf="@+id/date"
             app:layout_constraintLeft_toLeftOf="@+id/guide"/>
 

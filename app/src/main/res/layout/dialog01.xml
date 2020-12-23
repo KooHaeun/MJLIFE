@@ -13,6 +13,8 @@
         android:textSize="18sp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="25dp"
+        style="@style/title"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -25,6 +27,8 @@
         android:textSize="18sp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="25dp"
+        style="@style/title"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/dep"/>
 
@@ -37,6 +41,8 @@
         android:textSize="15sp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="25dp"
+        style="@style/head"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/dep"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -46,6 +52,8 @@
         android:spinnerMode="dialog"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
+        style="@style/basis"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/subText"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -58,6 +66,8 @@
         android:textSize="15sp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="25dp"
+        style="@style/head"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/sbSpinner"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -67,7 +77,8 @@
         android:spinnerMode="dialog"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-
+        style="@style/basis"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/scText"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -77,8 +88,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="12dp"
-        android:textSize="18sp"
         android:text="00:00"
+        style="@style/basis"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/scText"
         app:layout_constraintLeft_toRightOf="@+id/scSpinner"/>
     <TextView
@@ -87,8 +99,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="12dp"
-        android:textSize="18sp"
         android:text="~"
+        style="@style/basis"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/scText"
         app:layout_constraintLeft_toRightOf="@+id/start_text"/>
     <TextView
@@ -97,8 +110,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="12dp"
-        android:textSize="18sp"
         android:text="00:00"
+        style="@style/basis"
+        android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/scText"
         app:layout_constraintLeft_toRightOf="@+id/etcText"/>
     <TimePicker

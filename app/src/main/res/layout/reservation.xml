@@ -25,7 +25,8 @@
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:text="상담"
-        android:textSize="20sp"
+        style="@style/basis"
+        android:includeFontPadding="false"
         app:layout_constraintRight_toRightOf="@id/guideVerRight"
         app:layout_constraintTop_toBottomOf="@+id/bar"/>
 
@@ -35,7 +36,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/busTitle45"
-        android:textSize="18sp"
+        style="@style/head"
+        android:includeFontPadding="false"
         android:layout_span="5"
         app:layout_constraintTop_toTopOf="@+id/guideHori1"
         app:layout_constraintLeft_toLeftOf="@+id/guideVerLeft"
@@ -62,32 +64,37 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/busNumber"
-                android:textSize="18sp"
-                android:padding="3dp"/>
+                android:padding="3dp"
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/stationSchool"
-                android:textSize="18sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/stationDMC"
-                android:textSize="18sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/stationSaejeol"
-                android:textSize="18sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/stationSchool"
-                android:textSize="18sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -98,33 +105,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number1"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click49"/>
+                android:onClick="Click49"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/startNumber1"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="8:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="8:40"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="8:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -135,33 +147,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number2"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click49"/>
+                android:onClick="Click49"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="9:05"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="9:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="9:40"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="9:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -172,33 +189,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number3"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click49"/>
+                android:onClick="Click49"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10:05"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10:40"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -209,33 +231,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number4"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click49"/>
+                android:onClick="Click49"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="16:05"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="16:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="16:40"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="16:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -246,33 +273,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number5"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click49"/>
+                android:onClick="Click49"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="17:05"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="17:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="17:40"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="17:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -283,32 +315,37 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number6"
-                android:textSize="18sp"
-                android:onClick="Click49"/>
+                android:onClick="Click49"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="18:05"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="18:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="18:40"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="18:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
     </TableLayout>
 
@@ -318,7 +355,8 @@
         android:text="@string/Notice45"
         app:layout_constraintTop_toBottomOf="@id/busTable45"
         app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
-        android:textSize="13sp"/>
+        style="@style/caption"
+        android:includeFontPadding="false"/>
 
     <TextView
         android:id="@+id/busTitle29"
@@ -327,7 +365,8 @@
         android:layout_span="5"
         android:gravity="center"
         android:text="@string/busTitle29"
-        android:textSize="18sp"
+        style="@style/head"
+        android:includeFontPadding="false"
         app:layout_constraintLeft_toLeftOf="@+id/guideVerLeft"
         app:layout_constraintRight_toRightOf="@+id/guideVerRight"
         app:layout_constraintTop_toBottomOf="@id/guideHori2" />
@@ -353,32 +392,37 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/busNumber"
-                android:textSize="18sp"
-                android:padding="3dp"/>
+                android:padding="3dp"
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/stationSchool"
-                android:textSize="18sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/stationSinchon"
-                android:textSize="18sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/stationHongdae"
-                android:textSize="18sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/stationSchool"
-                android:textSize="18sp"/>
+                style="@style/head"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -389,33 +433,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number1"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click29"/>
+                android:onClick="Click29"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/startNumber1"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="8:30"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="8:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="8:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -426,33 +475,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number2"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click29"/>
+                android:onClick="Click29"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="9:05"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="9:25"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="9:30"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="9:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -463,33 +517,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number3"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click29"/>
+                android:onClick="Click29"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10:05"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10:30"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="10:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -501,33 +560,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number4"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click29"/>
+                android:onClick="Click29"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="16:10"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="16:30"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="16:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="16:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -538,21 +602,24 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number5"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click29"/>
+                android:onClick="Click29"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="17:10"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="17:30"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -564,7 +631,8 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="17:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
 
         <TableRow
@@ -575,33 +643,38 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/number6"
-                android:textSize="18sp"
                 android:padding="4dp"
-                android:onClick="Click29"/>
+                android:onClick="Click29"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="17:50"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="18:10"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="18:15"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="18:35"
-                android:textSize="18sp"/>
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
     </TableLayout>
     <TextView
@@ -610,7 +683,8 @@
         android:text="@string/Notice29"
         app:layout_constraintTop_toBottomOf="@id/busTable29"
         app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
-        android:textSize="13sp"/>
+        style="@style/caption"
+        android:includeFontPadding="false"/>
 
 
     <androidx.constraintlayout.widget.Guideline

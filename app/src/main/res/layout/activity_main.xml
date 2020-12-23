@@ -31,7 +31,8 @@
         app:layout_constraintTop_toBottomOf="@+id/bar"
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="2018081034 구하은"
-        style="@style/title"/>
+        style="@style/title"
+        android:includeFontPadding="false"/>
 
     <com.prolificinteractive.materialcalendarview.MaterialCalendarView
         android:id="@+id/cal"
@@ -39,7 +40,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/name"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/homepageButton"

@@ -45,6 +45,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="학생"
+            style="@style/head"
+            android:includeFontPadding="false"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title" />
 
@@ -53,6 +55,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="교수"
+            style="@style/head"
+            android:includeFontPadding="false"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title" />
 
@@ -71,6 +75,8 @@
         app:layout_constraintTop_toBottomOf="@+id/rdg"
         android:layout_marginTop="10dp"
         android:hint="@string/ID"
+        style="@style/edit"
+        android:includeFontPadding="false"
         />
 
     <EditText
@@ -83,6 +89,8 @@
         android:layout_marginTop="5dp"
         android:hint="@string/password"
         android:inputType="textPassword"
+        style="@style/edit"
+        android:includeFontPadding="false"
         />
     
     <Button
@@ -93,7 +101,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
         android:layout_marginTop="6dp"
-        android:text="@string/login"/>
+        android:text="@string/login"
+        style="@style/basis"
+        android:includeFontPadding="false"/>
     <Button
         android:id="@+id/join"
         android:layout_width="220dp"
@@ -102,7 +112,9 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login"
         android:layout_marginTop="3dp"
-        android:text="@string/join"/>
+        android:text="@string/join"
+        style="@style/basis"
+        android:includeFontPadding="false"/>
 
 
 

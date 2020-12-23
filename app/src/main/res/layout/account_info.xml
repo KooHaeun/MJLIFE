@@ -59,7 +59,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="내 정보 수정"
-        android:textSize="40sp"
+        style="@style/title"
+        android:includeFontPadding="false"
         app:layout_constraintBottom_toBottomOf="@+id/guideHori1"
         app:layout_constraintLeft_toLeftOf="@id/guideVerLeft"
         app:layout_constraintRight_toRightOf="@id/guideVerRight" />
@@ -79,14 +80,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="전화번호"
-            android:textSize="18sp"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            style="@style/head"
+            android:includeFontPadding="false"/>
 
         <EditText
             android:id="@+id/telInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="- 없이 입력해주세요." />
+            android:hint="- 없이 입력해주세요."
+            style="@style/edit"
+            android:includeFontPadding="false"/>
 
         <TextView
             android:id="@+id/emailTextView"
@@ -94,39 +98,48 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="이메일"
-            android:textSize="18sp" />
+            style="@style/head"
+            android:includeFontPadding="false" />
 
         <EditText
             android:id="@+id/emailInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="mail@xxx.xxx" />
+            android:hint="mail@xxx.xxx"
+            style="@style/edit"
+            android:includeFontPadding="false"/>
         <TextView
             android:id="@+id/passTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="비밀번호"
-            android:textSize="18sp" />
+            style="@style/head"
+            android:includeFontPadding="false"/>
 
         <EditText
             android:id="@+id/passInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="숫자+영문자 8~16자" />
+            android:hint="숫자+영문자 8~16자"
+            style="@style/edit"
+            android:includeFontPadding="false"/>
         <TextView
             android:id="@+id/passCheckTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="비밀번호 확인"
-            android:textSize="18sp" />
+            style="@style/head"
+            android:includeFontPadding="false"/>
 
         <EditText
             android:id="@+id/passCheckInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="비밀번호 확인" />
+            android:hint="비밀번호 확인"
+            style="@style/edit"
+            android:includeFontPadding="false"/>
     </LinearLayout>
 
 

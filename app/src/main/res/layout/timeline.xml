@@ -58,11 +58,10 @@
         android:id="@+id/text_dashboard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="19dp"
+        android:layout_marginTop="5dp"
         android:text="2020년 2학기"
         android:textColor="#326ca9"
-        android:textSize="22sp"
-        android:fontFamily="@font/medium"
+        style="@style/head"
         android:includeFontPadding="false"
         app:layout_constraintTop_toBottomOf="@+id/topGuid"
         app:layout_constraintLeft_toLeftOf="@+id/leftGuid" />
@@ -98,52 +97,53 @@
                 android:layout_margin="0.5dp"
                 android:background="#eaeaea"
                 android:gravity="center"
-                android:textSize="20sp" />
+                style="@style/basis"
+                android:includeFontPadding="false" />
             <TextView
                 android:layout_width="62dp"
                 android:layout_height="40dp"
                 android:text="월"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:gravity="center"
                 android:background="#eaeaea"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false" />
             <TextView
                 android:layout_width="62dp"
                 android:layout_height="40dp"
                 android:text="화"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:gravity="center"
                 android:background="#eaeaea"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="62dp"
                 android:layout_height="40dp"
                 android:text="수"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:gravity="center"
                 android:background="#eaeaea"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="62dp"
                 android:layout_height="40dp"
                 android:text="목"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:gravity="center"
                 android:background="#eaeaea"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_width="62dp"
                 android:layout_height="40dp"
                 android:text="금"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:gravity="center"
                 android:background="#eaeaea"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
         <TableRow
             android:layout_weight="1" >
@@ -151,10 +151,28 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
                 android:text="9"
-                android:textSize="20sp"
                 android:gravity="center|top"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_margin="0.5dp"
+                android:background="#fff"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_margin="0.5dp"
+                android:background="#fff"
+                style="@style/basis"
+                android:includeFontPadding="false"/>
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_margin="0.5dp"
+                android:background="#fff"
+                style="@style/basis"
+                android:includeFontPadding="false" />
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
@@ -164,27 +182,9 @@
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
-            <TextView
-                android:layout_height="match_parent"
-                android:layout_margin="0.5dp"
-                android:textSize="20sp"
-                android:background="#fff"
-                />
-            <TextView
-                android:layout_height="match_parent"
-                android:layout_margin="0.5dp"
-                android:textSize="20sp"
-                android:background="#fff"
-                />
-            <TextView
-                android:layout_height="match_parent"
-                android:layout_margin="0.5dp"
-                android:textSize="20sp"
-                android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
         <TableRow
             android:layout_weight="1" >
@@ -192,40 +192,42 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
                 android:text="10"
-                android:textSize="20sp"
                 android:gravity="center|top"
                 android:background="#fff"
+                style="@style/basis"
+                android:includeFontPadding="false" />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_margin="0.5dp"
+                android:background="#fff"
+                style="@style/basis"
+                android:includeFontPadding="false"
                 />
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
+                style="@style/basis"
+                android:includeFontPadding="false"
                 />
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false" />
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
-            <TextView
-                android:layout_height="match_parent"
-                android:layout_margin="0.5dp"
-                android:textSize="20sp"
-                android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
         <TableRow
             android:layout_weight="1" >
@@ -233,41 +235,41 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
                 android:text="11"
-                android:textSize="20sp"
                 android:gravity="center|top"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:gravity="center"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false" />
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false" />
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
         <TableRow
             android:layout_weight="1" >
@@ -275,40 +277,40 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
                 android:text="12"
-                android:textSize="20sp"
                 android:gravity="center|top"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
         <TableRow
             android:layout_weight="1" >
@@ -316,40 +318,40 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
                 android:text="1"
-                android:textSize="20sp"
                 android:gravity="center|top"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false" />
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
         <TableRow
             android:layout_weight="1" >
@@ -357,40 +359,40 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
                 android:text="2"
-                android:textSize="20sp"
                 android:gravity="center|top"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false" />
         </TableRow>
         <TableRow
             android:layout_weight="1" >
@@ -398,40 +400,40 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
                 android:text="3"
-                android:textSize="20sp"
                 android:gravity="center|top"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
         <TableRow
             android:layout_weight="1" >
@@ -439,40 +441,40 @@
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
                 android:text="4"
-                android:textSize="20sp"
                 android:gravity="center|top"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false" />
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
             <TextView
                 android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
-                android:textSize="20sp"
                 android:background="#fff"
-                />
+                style="@style/basis"
+                android:includeFontPadding="false"/>
         </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
