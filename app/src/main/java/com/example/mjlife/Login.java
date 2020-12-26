@@ -26,7 +26,7 @@ public class Login extends AppCompatActivity {
     String id, pw;
     EditText ID, password;
 
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {//완료
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
 

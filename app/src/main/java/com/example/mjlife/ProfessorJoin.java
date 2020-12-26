@@ -29,7 +29,7 @@ public class ProfessorJoin extends AppCompatActivity {
     int c=0, k=0;
 
 
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {//완료
         super.onCreate(savedInstanceState);
         setContentView(R.layout.professor_join);
 

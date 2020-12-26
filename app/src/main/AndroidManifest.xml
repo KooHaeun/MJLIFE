@@ -15,20 +15,22 @@
         <activity android:name=".Login">
 
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
         <activity android:name=".StudentJoin"/>
         <activity android:name=".Timeline"/>
         <activity android:name=".Account_info"/>
         <activity android:name=".Bus_29"/>
         <activity android:name=".Bus_45"/>
-        <activity android:name=".Reservation">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Reservation"/>
+        <activity android:name=".Homepage_WebView"/>
         <activity android:name=".ProfessorJoin"/>
+        <activity android:name=".Counsel"/>
     </application>
 
 </manifest>

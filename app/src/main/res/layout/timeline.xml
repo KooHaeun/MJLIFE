@@ -484,7 +484,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="end"
         android:fitsSystemWindows="true"
-        app:itemTextAppearance="@style/title1"
-        app:itemTextColor="#ffffff"
+        app:itemTextAppearance="@style/basis"
         app:menu="@menu/navi_menu" />
 </androidx.drawerlayout.widget.DrawerLayout>

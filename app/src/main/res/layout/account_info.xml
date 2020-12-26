@@ -92,22 +92,7 @@
             style="@style/edit"
             android:includeFontPadding="false"/>
 
-        <TextView
-            android:id="@+id/emailTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="이메일"
-            style="@style/head"
-            android:includeFontPadding="false" />
 
-        <EditText
-            android:id="@+id/emailInput"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="mail@xxx.xxx"
-            style="@style/edit"
-            android:includeFontPadding="false"/>
         <TextView
             android:id="@+id/passTextView"
             android:layout_width="wrap_content"

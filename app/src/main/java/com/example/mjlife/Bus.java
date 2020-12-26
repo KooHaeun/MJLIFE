@@ -1,21 +1,31 @@
 package com.example.mjlife;
 
-public class BusReservation {
+public class Bus {
 
     public String date;
     public String serviceNum;
     public String seatNum;
     public String where;
+    public String ID;
 
 
 
-    public BusReservation(){}
+    public Bus(){}
 
-    public BusReservation(String date, String serviceNum, String seatNum, String where){
+    public Bus(String ID, String date, String serviceNum, String seatNum, String where){
+        this.ID = ID;
         this.date = date;
         this.serviceNum = serviceNum;
         this.seatNum=seatNum;
         this.where = where;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
     }
 
     public String getDate() {

@@ -92,25 +92,29 @@ public class MainActivity extends AppCompatActivity {
                     //id넘기기
                     intent = new Intent(getApplicationContext(), Reservation.class);
                     intent.putExtra("id", id);
+                    startActivity(intent);
                 }
                 else if(id==R.id.timeline){
                     //timeline으로
                     //id넘기기
                     intent = new Intent(getApplicationContext(), Timeline.class);
                     intent.putExtra("id", id);
+                    startActivity(intent);
                 }
                 else if(id == R.id.mine){
                     //Account_info로 넘기기
                     //id 넘기기
                     intent = new Intent(getApplicationContext(), Account_info.class);
                     intent.putExtra("id", id);
+                    startActivity(intent);
                 }else if(id==R.id.reservation_con){
                     //ReservationContrl로 넘기기
                     //id 넘기기
                     intent = new Intent(getApplicationContext(), ReservationControl.class);
                     intent.putExtra("id", id);
+                    startActivity(intent);
                 }
-                return false;
+                return true;
             }
         });
     }
